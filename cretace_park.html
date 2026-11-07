@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Crétacé Parc</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="modern-normalize.css">
+	    <link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<nav class="en-tete">
+			<div class="en-tete__lpannel">
+				<a href="Images/Logo_Park.png" target="_blank"><img class="en-tete__lpannel-img" alt="Logo du parc" src="Images/Logo_Park.png"></a>
+				<p class="en-tete__lpannel-texte"><strong>Crétacé Park</strong></p>
+			</div>
+			<div class="en-tete__retour">
+				<a class="en-tete__retour-fleche" title="Haut de la page" href="#accueil">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6.75 12 3m0 0 3.75 3.75M12 3v18" />
+					</svg>
+				</a>
+			</div>
+			<div class="en-tete__rpannel">
+				<div class="en-tete__rpannel-menu">
+			    	<input class="en-tete__rpannel-menu-input" type="checkbox" id="burger-menu">
+			    	<label class="en-tete__rpannel-menu-label" for="burger-menu">
+			        	<svg class="en-tete__rpannel-menu-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+			        		<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+			        	</svg>
+			    	</label>
+			    </div>
+				<ul class="en-tete__rpannel-items">
+			        <li class="en-tete__rpannel-item"><a class="en-tete__rpannel-link" title="Photos de nos animaux" href="#photos">Animaux</a></li>
+			        <li class="en-tete__rpannel-item"><a class="en-tete__rpannel-link" title="Activités du parc" href="#activites">Activités</a></li>
+			        <li class="en-tete__rpannel-item"><a class="en-tete__rpannel-link" title="Heures d'ouverture" href="#horaire">Horaire</a></li>
+			    	<li class="en-tete__rpannel-item"><a class="en-tete__rpannel-link" title="Tarifs de visites" href="#tarifs">Tarifs</a></li>
+			    	<li class="en-tete__rpannel-item"><a class="en-tete__rpannel-link" title="Réservation en ligne" href="#reservation">Réservation</a></li>
+			    	<li class="en-tete__rpannel-item"><a class="en-tete__rpannel-link" title="Nous contacter" href="#contact">Contact</a></li>
+			    </ul>
+			</div>
+		</nav>
+		<section class="accueil" id="accueil">
+			<div class="accueil__hpanel">
+				<div class="accueil__hpanel-input">
+					<input type="radio" class="accueil__hpannel-radio" id="accueil__hpannel-radio-img1" name="accueil__hpannel-img" checked>
+					<input type="radio" class="accueil__hpannel-radio" id="accueil__hpannel-radio-img2" name="accueil__hpannel-img">
+					<input type="radio" class="accueil__hpannel-radio" id="accueil__hpannel-radio-img3" name="accueil__hpannel-img">
+				</div>
+				<div class="accueil__hpanel-img">
+					<picture>
+					    <source
+					        type="image/avif"
+					        srcset="Images/avif/Accueil1-600w.avif 600w, Images/avif/Accueil1-1000w.avif 1000w, Images/avif/Accueil1-2400w.avif 2400w"
+					    >
+					    <source
+					        type="image/webp"
+					        srcset="Images/webp/Accueil1-600w.webp 600w, Images/webp/Accueil1-1000w.webp 1000w, Images/webp/Accueil1-2400w.webp 2400w"
+					    >
+					    <img
+					        class="accueil__hpanel-img1"
+					        srcset="Images/jpg/Accueil1-600w.jpg 600w, Images/jpg/Accueil1-1000w.jpg 1000w, Images/jpg/Accueil1-2400w.jpg 2400w"
+					        alt="Image de Tricertops buvant dans un lac"
+					        sizes="80vw"
+					        src="Images/jpg/Accueil1-2400w.jpg"
+					    >
+					</picture>
+					<picture>
+					    <source
+					        type="image/avif"
+					        srcset="Images/avif/Accueil2-600w.avif 600w, Images/avif/Accueil2-1000w.avif 1000w, Images/avif/Accueil2-2400w.avif 2400w"
+					    >
+					    <source
+					        type="image/webp"
+					        srcset="Images/webp/Accueil2-600w.webp 600w, Images/webp/Accueil2-1000w.webp 1000w, Images/webp/Accueil2-2400w.webp 2400w"
+					    >
+					    <img
+					        class="accueil__hpanel-img2"
+					        srcset="Images/jpg/Accueil2-600w.jpg 600w, Images/jpg/Accueil2-1000w.jpg 1000w, Images/jpg/Accueil2-2400w.jpg 2400w"
+					        alt="Image de Brachiosaures buvant dans un lac"
+					        sizes="80vw"
+					        src="Images/jpg/Accueil2-2400w.jpg"
+					    >
+					</picture>
+					<picture>
+					    <source
+					        type="image/avif"
+					        srcset="Images/avif/Accueil3-600w.avif 600w, Images/avif/Accueil3-1000w.avif 1000w, Images/avif/Accueil3-2400w.avif 2400w"
+					    >
+					    <source
+					        type="image/webp"
+					        srcset="Images/webp/Accueil3-600w.webp 600w, Images/webp/Accueil3-1000w.webp 1000w, Images/webp/Accueil3-2400w.webp 2400w"
+					    >
+					    <img
+					        class="accueil__hpanel-img3"
+					        srcset="Images/jpg/Accueil3-600w.jpg 600w, Images/jpg/Accueil3-1000w.jpg 1000w, Images/jpg/Accueil3-2400w.jpg 2400w"
+					        alt="Image de dinosaure marins"
+					        sizes="80vw"
+					        src="Images/jpg/Accueil3-2400w.jpg"
+					    >
+					</picture>
+				</div>
+			</div>
+			<div class="accueil__lpanel">
+				<p class="accueil__lpanel-texte">Profitez d'une journée merveilleuse avec votre famille</p>
+				<div class="accueil__lpanel-overlay"></div>
+				<picture>
+				    <source
+				        type="image/avif"
+				        srcset="Images/avif/Accueil4-600w.avif 600w, Images/avif/Accueil4-1000w.avif 1000w, Images/avif/Accueil4-2400w.avif 2400w"
+				    >
+				    <source
+				        type="image/webp"
+				        srcset="Images/webp/Accueil4-600w.webp 600w, Images/webp/Accueil4-1000w.webp 1000w, Images/webp/Accueil4-2400w.webp 2400w"
+				    >
+				    <img
+				        class="accueil__lpanel-img"
+				        srcset="Images/jpg/Accueil4-600w.jpg 600w, Images/jpg/Accueil4-1000w.jpg 1000w, Images/jpg/Accueil4-2400w.jpg 2400w"
+				        alt="Image d'un parc à dinosaure dans un désert"
+				        sizes="80vw"
+				        src="Images/jpg/Accueil4-2400w.jpg"
+				    >
+				</picture>
+			</div>
+		</section>
+		<section class="photos" id="photos">
+			<div class="section__en-tete">
+				<h2 class="section__titre">Notre galerie</h2>
+				<div class="section_decoration"></div>
+				<p class="section__description">Voici quelques photos des plus beaux spécimens composant notre parc.<br> De nombreux autres sont encore à venir !<br>Cliquez sur une image pour en savoir plus.</p>
+			</div>
+			<div class="photos__corps">
+				<div class="photos__inputs">
+					<input type="radio" class="photos__input" id="photos__input-tous" name="photos__input" checked>
+					<label class="photos__label" for="photos__input-tous">Tous</label>
+					<input type="radio" class="photos__input" id="photos__input-terrestre" name="photos__input">
+					<label class="photos__label" for="photos__input-terrestre">Terrestres</label>
+					<input type="radio" class="photos__input" id="photos__input-aquatique" name="photos__input">
+					<label class="photos__label" for="photos__input-aquatique">Aquatiques</label>
+					<input type="radio" class="photos__input" id="photos__input-aerien" name="photos__input">
+					<label class="photos__label" for="photos__input-aerien">Aériens</label>
+				</div>
+				<a class="photos__img-terrestre" href="fiche_technique_animaux.html#triceratops">
+					<picture>
+					    <source
+					        type="image/avif"
+					        srcset="Images/avif/Triceratops-600w.avif 600w, Images/avif/Triceratops-1000w.avif 1000w, Images/avif/Triceratops-2400w.avif 2400w"
+					    >
+					    <source
+					        type="image/webp"
+					        srcset="Images/webp/Triceratops-600w.webp 600w, Images/webp/Triceratops-1000w.webp 1000w, Images/webp/Triceratops-2400w.webp 2400w"
+					    >
+					    <img
+					        srcset="Images/jpg/Triceratops-600w.jpg 600w, Images/jpg/Triceratops-1000w.jpg 1000w, Images/jpg/Triceratops-2400w.jpg 2400w"
+					        alt="Image d'une famille de Tricératops vue du dessus"
+					        sizes="80vw"
+					        src="Images/jpg/Triceratops-2400w.jpg"
+					    >
+					</picture>
+				</a>
+				<a class="photos__img-terrestre" href="fiche_technique_animaux.html#trex">
+					<picture>
+					    <source
+					        type="image/avif"
+					        srcset="Images/avif/Trex-600w.avif 600w, Images/avif/Trex-1000w.avif 1000w, Images/avif/Trex-2400w.avif 2400w"
+					    >
+					    <source
+					        type="image/webp"
+					        srcset="Images/webp/Trex-600w.webp 600w, Images/webp/Trex-1000w.webp 1000w, Images/webp/Trex-2400w.webp 2400w"
+					    >
+					    <img
+					        srcset="Images/jpg/Trex-600w.jpg 600w, Images/jpg/Trex-1000w.jpg 1000w, Images/jpg/Trex-2400w.jpg 2400w"
+					        alt="Image d'un T-rex dans une forêt"
+					        sizes="80vw"
+					        src="Images/jpg/Trex-2400w.jpg"
+					    >
+					</picture>
+				</a>
+				<a class="photos__img-aquatique" href="fiche_technique_animaux.html#ichthyosaur">
+					<picture>
+					    <source
+					        type="image/avif"
+					        srcset="Images/avif/Ichthyosaur-600w.avif 600w, Images/avif/Ichthyosaur-1000w.avif 1000w, Images/avif/Ichthyosaur-2400w.avif 2400w"
+					    >
+					    <source
+					        type="image/webp"
+					        srcset="Images/webp/Ichthyosaur-600w.webp 600w, Images/webp/Ichthyosaur-1000w.webp 1000w, Images/webp/Ichthyosaur-2400w.webp 2400w"
+					    >
+					    <img
+					        srcset="Images/jpg/Ichthyosaur-600w.jpg 600w, Images/jpg/Ichthyosaur-1000w.jpg 1000w, Images/jpg/Ichthyosaur-2400w.jpg 2400w"
+					        alt="Image d'Ichtyosaures sautant au-dessus de l'eau"
+					        sizes="80vw"
+					        src="Images/jpg/Ichthyosaur-2400w.jpg"
+					    >
+					</picture>
+				</a>
+				<a class="photos__img-terrestre" href="fiche_technique_animaux.html#ankylosaures">
+					<picture>
+					    <source
+					        type="image/avif"
+					        srcset="Images/avif/Ankylosaure-600w.avif 600w, Images/avif/Ankylosaure-1000w.avif 1000w, Images/avif/Ankylosaure-2400w.avif 2400w"
+					    >
+					    <source
+					        type="image/webp"
+					        srcset="Images/webp/Ankylosaure-600w.webp 600w, Images/webp/Ankylosaure-1000w.webp 1000w, Images/webp/Ankylosaure-2400w.webp 2400w"
+					    >
+					    <img
+					        srcset="Images/jpg/Ankylosaure-600w.jpg 600w, Images/jpg/Ankylosaure-1000w.jpg 1000w, Images/jpg/Ankylosaure-2400w.jpg 2400w"
+					        alt="Image de deux Ankylosaures se battant dans un désert"
+					        sizes="80vw"
+					        src="Images/jpg/Ankylosaure-2400w.jpg"
+					    >
+					</picture>
+				</a>
+				<a class="photos__img-terrestre" href="fiche_technique_animaux.html#dilophosaures">
+					<picture>
+					    <source
+					        type="image/avif"
+					        srcset="Images/avif/Dilophosaure-600w.avif 600w, Images/avif/Dilophosaure-1000w.avif 1000w, Images/avif/Dilophosaure-2400w.avif 2400w"
+					    >
+					    <source
+					        type="image/webp"
+					        srcset="Images/webp/Dilophosaure-600w.webp 600w, Images/webp/Dilophosaure-1000w.webp 1000w, Images/webp/Dilophosaure-2400w.webp 2400w"
+					    >
+					    <img
+					        srcset="Images/jpg/Dilophosaure-600w.jpg 600w, Images/jpg/Dilophosaure-1000w.jpg 1000w, Images/jpg/Dilophosaure-2400w.jpg 2400w"
+					        alt="Image de deux Dilophosaures se faisant face"
+					        sizes="80vw"
+					        src="Images/jpg/Dilophosaure-2400w.jpg"
+					    >
+					</picture>
+				</a>
+				<a class="photos__img-aquatique" href="fiche_technique_animaux.html#mosasaure">
+					<picture>
+					    <source
+					        type="image/avif"
+					        srcset="Images/avif/Mosasaure-600w.avif 600w, Images/avif/Mosasaure-1000w.avif 1000w, Images/avif/Mosasaure-2400w.avif 2400w"
+					    >
+					    <source
+					        type="image/webp"
+					        srcset="Images/webp/Mosasaure-600w.webp 600w, Images/webp/Mosasaure-1000w.webp 1000w, Images/webp/Mosasaure-2400w.webp 2400w"
+					    >
+					    <img
+					        srcset="Images/jpg/Mosasaure-600w.jpg 600w, Images/jpg/Mosasaure-1000w.jpg 1000w, Images/jpg/Mosasaure-2400w.jpg 2400w"
+					        alt="Image d'un Mosasaure s'apprêtant à manger un requin"
+					        sizes="80vw"
+					        src="Images/jpg/Mosasaure-2400w.jpg"
+					    >
+					</picture>
+				</a>
+				<a class="photos__img-aerien" href="fiche_technique_animaux.html#quetzal">
+					<picture>
+					    <source
+					        type="image/avif"
+					        srcset="Images/avif/Quetzal-600w.avif 600w, Images/avif/Quetzal-1000w.avif 1000w, Images/avif/Quetzal-2400w.avif 2400w"
+					    >
+					    <source
+					        type="image/webp"
+					        srcset="Images/webp/Quetzal-600w.webp 600w, Images/webp/Quetzal-1000w.webp 1000w, Images/webp/Quetzal-2400w.webp 2400w"
+					    >
+					    <img
+					        srcset="Images/jpg/Quetzal-600w.jpg 600w, Images/jpg/Quetzal-1000w.jpg 1000w, Images/jpg/Quetzal-2400w.jpg 2400w"
+					        alt="Image d'un Quetzal volant au-dessus du parc"
+					        sizes="80vw"
+					        src="Images/jpg/Quetzal-2400w.jpg"
+					    >
+					</picture>
+				</a>
+				<a class="photos__img-terrestre" href="fiche_technique_animaux.html#utahraptor">
+					<picture>
+					    <source
+					        type="image/avif"
+					        srcset="Images/avif/Utahraptor-600w.avif 600w, Images/avif/Utahraptor-1000w.avif 1000w, Images/avif/Utahraptor-2400w.avif 2400w"
+					    >
+					    <source
+					        type="image/webp"
+					        srcset="Images/webp/Utahraptor-600w.webp 600w, Images/webp/Utahraptor-1000w.webp 1000w, Images/webp/Utahraptor-2400w.webp 2400w"
+					    >
+					    <img
+					        srcset="Images/jpg/Utahraptor-600w.jpg 600w, Images/jpg/Utahraptor-1000w.jpg 1000w, Images/jpg/Utahraptor-2400w.jpg 2400w"
+					        alt="Image d'un Utahraptor au bord d'un point d'eau dans un désert"
+					        sizes="80vw"
+					        src="Images/jpg/Utahraptor-2400w.jpg"
+					    >
+					</picture>
+				</a>
+				<a class="photos__img-terrestre" href="fiche_technique_animaux.html#brachiosaure">
+					<picture>
+					    <source
+					        type="image/avif"
+					        srcset="Images/avif/Brachiosaure-600w.avif 600w, Images/avif/Brachiosaure-1000w.avif 1000w, Images/avif/Brachiosaure-2400w.avif 2400w"
+					    >
+					    <source
+					        type="image/webp"
+					        srcset="Images/webp/Brachiosaure-600w.webp 600w, Images/webp/Brachiosaure-1000w.webp 1000w, Images/webp/Brachiosaure-2400w.webp 2400w"
+					    >
+					    <img
+					        srcset="Images/jpg/Brachiosaure-600w.jpg 600w, Images/jpg/Brachiosaure-1000w.jpg 1000w, Images/jpg/Brachiosaure-2400w.jpg 2400w"
+					        alt="Image d'un Brachiosaure mangeant les feuilles d'un arbre"
+					        sizes="80vw"
+					        src="Images/jpg/Brachiosaure-2400w.jpg"
+					    >
+					</picture>
+				</a>
+				<a class="photos__img-aerien" href="fiche_technique_animaux.html#pteranodon">
+					<picture>
+					    <source
+					        type="image/avif"
+					        srcset="Images/avif/Pteranodon-600w.avif 600w, Images/avif/Pteranodon-1000w.avif 1000w, Images/avif/Pteranodon-2400w.avif 2400w"
+					    >
+					    <source
+					        type="image/webp"
+					        srcset="Images/webp/Pteranodon-600w.webp 600w, Images/webp/Pteranodon-1000w.webp 1000w, Images/webp/Pteranodon-2400w.webp 2400w"
+					    >
+					    <img
+					        srcset="Images/jpg/Pteranodon-600w.jpg 600w, Images/jpg/Pteranodon-1000w.jpg 1000w, Images/jpg/Pteranodon-2400w.jpg 2400w"
+					        alt="Image d'un Ptéranodon volant dans le ciel"
+					        sizes="80vw"
+					        src="Images/jpg/Pteranodon-2400w.jpg"
+					    >
+					</picture>
+				</a>
+			</div>
+		</section>
+		<section class="activites" id="activites">
+			<div class="section__en-tete">
+				<h2 class="section__titre">Nos activités</h2>
+				<div class="section_decoration"></div>
+				<p class="section__description">Vous trouverez ci-dessous un échantillon de nos activités principales, venez découvrir le reste par vous-même !</p>
+			</div>
+			<div class="activites__presentation">
+				<div class="activites__presentation-div">
+					<picture>
+					    <source
+					        type="image/avif"
+					        srcset="Images/avif/Circuit_voiture-600w.avif 600w, Images/avif/Circuit_voiture-1000w.avif 1000w, Images/avif/Circuit_voiture-2400w.avif 2400w"
+					    >
+					    <source
+					        type="image/webp"
+					        srcset="Images/webp/Circuit_voiture-600w.webp 600w, Images/webp/Circuit_voiture-1000w.webp 1000w, Images/webp/Circuit_voiture-2400w.webp 2400w"
+					    >
+					    <img
+					        class="activites__img"
+					        srcset="Images/jpg/Circuit_voiture-600w.jpg 600w, Images/jpg/Circuit_voiture-1000w.jpg 1000w, Images/jpg/Circuit_voiture-2400w.jpg 2400w"
+					        alt="Image d'un Brachiosaure avec une voiture en premier plan"
+					        sizes="80vw"
+					        src="Images/jpg/Circuit_voiture-2400w.jpg"
+					    >
+					</picture>
+					<div class="activites__presentation-overlay"></div>
+					<h3>Circuit en voiture</h3>
+					<p>Réservez un tour du parc et laissez-vous conduire par nos chauffeurs attestés pour profiter d'une vue imprenable sur nos animaux !</p>
+				</div>
+				<div class="activites__presentation-div">
+					<picture>
+					    <source
+					        type="image/avif"
+					        srcset="Images/avif/Mosasaure_spectacle-600w.avif 600w, Images/avif/Mosasaure_spectacle-1000w.avif 1000w, Images/avif/Mosasaure_spectacle-2400w.avif 2400w"
+					    >
+					    <source
+					        type="image/webp"
+					        srcset="Images/webp/Mosasaure_spectacle-600w.webp 600w, Images/webp/Mosasaure_spectacle-1000w.webp 1000w, Images/webp/Mosasaure_spectacle-2400w.webp 2400w"
+					    >
+					    <img
+					        class="activites__img"
+					        srcset="Images/jpg/Mosasaure_spectacle-600w.jpg 600w, Images/jpg/Mosasaure_spectacle-1000w.jpg 1000w, Images/jpg/Mosasaure_spectacle-2400w.jpg 2400w"
+					        alt="Image d'un Mosasaure sautant hors de l'eau"
+					        sizes="80vw"
+					        src="Images/jpg/Mosasaure_spectacle-2400w.jpg"
+					    >
+					</picture>
+					<div class="activites__presentation-overlay"></div>
+					<h3>Spectacle du Mosasaure</h3>
+					<p>Assistez au spectacle de notre magnifique Mosasaure et observez avec quelle grâce ce terrible prédateur marin bondit pour attraper les imprudents volatiles !<br><br>Gare aux éclaboussures !</p>
+				</div>
+				<div class="activites__presentation-div">
+					<picture>
+					    <source
+					        type="image/avif"
+					        srcset="Images/avif/Jardin_enfant-600w.avif 600w, Images/avif/Jardin_enfant-1000w.avif 1000w, Images/avif/Jardin_enfant-2400w.avif 2400w"
+					    >
+					    <source
+					        type="image/webp"
+					        srcset="Images/webp/Jardin_enfant-600w.webp 600w, Images/webp/Jardin_enfant-1000w.webp 1000w, Images/webp/Jardin_enfant-2400w.webp 2400w"
+					    >
+					    <img
+					        class="activites__img"
+					        srcset="Images/jpg/Jardin_enfant-600w.jpg 600w, Images/jpg/Jardin_enfant-1000w.jpg 1000w, Images/jpg/Jardin_enfant-2400w.jpg 2400w"
+					        alt="Image de bébés Tricératops et Brachiosaures dans un enclos petting zoo"
+					        sizes="80vw"
+					        src="Images/jpg/Jardin_enfant-2400w.jpg"
+					    >
+					</picture>
+					<div class="activites__presentation-overlay"></div>
+					<h3>Jardin d'enfants</h3>
+					<p>Laissez votre enfant dans notre garderie, en compagnie de nos adorables bébés dinosaures herbivores, et laissez-le faire un tour à dos de jeune Tricératops !</p>
+				</div>
+			</div>
+		</section>
+		<div class="section__en-tete" id="en-tete__managers">
+			<h2 class="section__titre">Nos managers</h2>
+			<div class="section_decoration"></div>
+			<p class="section__description">Laissez-nous vous présenter les leaders de nos différents départements, sans qui la magie du Crétacé Park serait impossible !</p>
+		</div>
+		<section class="managers" id="managers">
+			<div class="managers__id">
+				<div class="managers__id-cadre" id="scientifique">
+					<picture>
+					    <source
+					        type="image/avif"
+					        srcset="Images/avif/Scientifique-600w.avif 600w, Images/avif/Scientifique-1000w.avif 1000w, Images/avif/Scientifique-2400w.avif 2400w"
+					    >
+					    <source
+					        type="image/webp"
+					        srcset="Images/webp/Scientifique-600w.webp 600w, Images/webp/Scientifique-1000w.webp 1000w, Images/webp/Scientifique-2400w.webp 2400w"
+					    >
+					    <img
+					        class="managers__img"
+					        srcset="Images/jpg/Scientifique-600w.jpg 600w, Images/jpg/Scientifique-1000w.jpg 1000w, Images/jpg/Scientifique-2400w.jpg 2400w"
+					        alt="Image de notre manager de la section scientifique"
+					        sizes="80vw"
+					        src="Images/jpg/Scientifique-2400w.jpg"
+					    >
+					</picture>
+					<h3 class="managers__nom">Senku Ishigami</h3>
+					<p class="managers__departement">Scientifique</p>
+					<div class="managers__id-navigation">
+					    <a href="#divertissement">
+					    	<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+							</svg>
+						</a>
+					    <a href="#paleoveterinaire" target="_parent">
+					    	<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+							</svg>
+					    </a>
+					</div>
+				</div>
+				<div class="managers__id-cadre" id="paleoveterinaire">
+					<picture>
+					    <source
+					        type="image/avif"
+					        srcset="Images/avif/Paleoveterinaire-600w.avif 600w, Images/avif/Paleoveterinaire-1000w.avif 1000w, Images/avif/Paleoveterinaire-2400w.avif 2400w"
+					    >
+					    <source
+					        type="image/webp"
+					        srcset="Images/webp/Paleoveterinaire-600w.webp 600w, Images/webp/Paleoveterinaire-1000w.webp 1000w, Images/webp/Paleoveterinaire-2400w.webp 2400w"
+					    >
+					    <img
+					        class="managers__img"
+					        srcset="Images/jpg/Paleoveterinaire-600w.jpg 600w, Images/jpg/Paleoveterinaire-1000w.jpg 1000w, Images/jpg/Paleoveterinaire-2400w.jpg 2400w"
+					        alt="Image de notre manager de la section paléovétérinaire"
+					        sizes="80vw"
+					        src="Images/jpg/Paleoveterinaire-2400w.jpg"
+					    >
+					</picture>
+					<h3 class="managers__nom">Bulma Brief</h3>
+					<p class="managers__departement">Paléovétérinaire</p>
+					<div class="managers__id-navigation">
+					    <a href="#scientifique">
+					    	<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+							</svg>
+					    </a>
+					    <a href="#paleobotaniste">
+					    	<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+							</svg>
+					    </a>
+					</div>
+				</div>
+				<div class="managers__id-cadre" id="paleobotaniste">
+					<picture>
+					    <source
+					        type="image/avif"
+					        srcset="Images/avif/Paleobotaniste-600w.avif 600w, Images/avif/Paleobotaniste-1000w.avif 1000w, Images/avif/Paleobotaniste-2400w.avif 2400w"
+					    >
+					    <source
+					        type="image/webp"
+					        srcset="Images/webp/Paleobotaniste-600w.webp 600w, Images/webp/Paleobotaniste-1000w.webp 1000w, Images/webp/Paleobotaniste-2400w.webp 2400w"
+					    >
+					    <img
+					        class="managers__img"
+					        srcset="Images/jpg/Paleobotaniste-600w.jpg 600w, Images/jpg/Paleobotaniste-1000w.jpg 1000w, Images/jpg/Paleobotaniste-2400w.jpg 2400w"
+					        alt="Image de notre manager de la section paléobotaniste"
+					        sizes="80vw"
+					        src="Images/jpg/Paleobotaniste-2400w.jpg"
+					    >
+					</picture>
+					<h3 class="managers__nom">Rue Ryuzaki</h3>
+					<p class="managers__departement">Paléobotaniste</p>
+					<div class="managers__id-navigation">
+						<a href="#paleoveterinaire">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+							</svg>
+						</a>
+					    <a href="#securite">
+					    	<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+							</svg>
+					    </a>
+					</div>
+				</div>
+				<div class="managers__id-cadre" id="securite">
+					<picture>
+					    <source
+					        type="image/avif"
+					        srcset="Images/avif/Securite-600w.avif 600w, Images/avif/Securite-1000w.avif 1000w, Images/avif/Securite-2400w.avif 2400w"
+					    >
+					    <source
+					        type="image/webp"
+					        srcset="Images/webp/Securite-600w.webp 600w, Images/webp/Securite-1000w.webp 1000w, Images/webp/Securite-2400w.webp 2400w"
+					    >
+					    <img
+					        class="managers__img"
+					        srcset="Images/jpg/Securite-600w.jpg 600w, Images/jpg/Securite-1000w.jpg 1000w, Images/jpg/Securite-2400w.jpg 2400w"
+					        alt="Image de notre manager de la section sécurité"
+					        sizes="80vw"
+					        src="Images/jpg/Securite-2400w.jpg"
+					    >
+					</picture>
+					<h3 class="managers__nom">Mikasa Ackerman</h3>
+					<p class="managers__departement">Sécurité</p>
+					<div class="managers__id-navigation">
+					    <a href="#paleobotaniste">
+					    	<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+							</svg>
+					    </a>
+					    <a href="#marketing">
+					    	<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+							</svg>
+					    </a>
+					</div>
+				</div>
+				<div class="managers__id-cadre" id="marketing">
+					<picture>
+					    <source
+					        type="image/avif"
+					        srcset="Images/avif/Marketing-600w.avif 600w, Images/avif/Marketing-1000w.avif 1000w, Images/avif/Marketing-2400w.avif 2400w"
+					    >
+					    <source
+					        type="image/webp"
+					        srcset="Images/webp/Marketing-600w.webp 600w, Images/webp/Marketing-1000w.webp 1000w, Images/webp/Marketing-2400w.webp 2400w"
+					    >
+					    <img
+					        class="managers__img"
+					        srcset="Images/jpg/Marketing-600w.jpg 600w, Images/jpg/Marketing-1000w.jpg 1000w, Images/jpg/Marketing-2400w.jpg 2400w"
+					        alt="Image de notre manager de la section marketing"
+					        sizes="80vw"
+					        src="Images/jpg/Marketing-2400w.jpg"
+					    >
+					</picture>
+					<h3 class="managers__nom">Orter Mádl</h3>
+					<p class="managers__departement">Marketing</p>
+					<div class="managers__id-navigation">
+					   	<a href="#securite">
+					   		<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+							</svg>
+					   	</a>
+					    <a href="#divertissement">
+					    	<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+							</svg>
+					    </a>
+					</div>
+				</div>
+				<div class="managers__id-cadre" id="divertissement">
+					<picture>
+					    <source
+					        type="image/avif"
+					        srcset="Images/avif/Divertissement-600w.avif 600w, Images/avif/Divertissement-1000w.avif 1000w, Images/avif/Divertissement-2400w.avif 2400w"
+					    >
+					    <source
+					        type="image/webp"
+					        srcset="Images/webp/Divertissement-600w.webp 600w, Images/webp/Divertissement-1000w.webp 1000w, Images/webp/Divertissement-2400w.webp 2400w"
+					    >
+					    <img
+					        class="managers__img"
+					        srcset="Images/jpg/Divertissement-600w.jpg 600w, Images/jpg/Divertissement-1000w.jpg 1000w, Images/jpg/Divertissement-2400w.jpg 2400w"
+					        alt="Image de notre manager de la section divertissement"
+					        sizes="80vw"
+					        src="Images/jpg/Divertissement-2400w.jpg"
+					    >
+					</picture>
+					<h3 class="managers__nom">John Doe</h3>
+					<p class="managers__departement">Divertissement</p>
+					<div class="managers__id-navigation">
+					    <a href="#marketing">
+					    	<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+							</svg>
+					    </a>
+					    <a href="#scientifique">
+					    	<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+								<path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+							</svg>
+					    </a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="horaire" id="horaire">
+			<picture>
+			    <source
+			        type="image/avif"
+			        srcset="Images/avif/Park_vue_aerienne-600w.avif 600w, Images/avif/Park_vue_aerienne-1000w.avif 1000w, Images/avif/Park_vue_aerienne-2400w.avif 2400w"
+			    >
+			    <source
+			        type="image/webp"
+			        srcset="Images/webp/Park_vue_aerienne-600w.webp 600w, Images/webp/Park_vue_aerienne-1000w.webp 1000w, Images/webp/Park_vue_aerienne-2400w.webp 2400w"
+			    >
+			    <img
+			        class="horaire__img"
+			        srcset="Images/jpg/Park_vue_aerienne-600w.jpg 600w, Images/jpg/Park_vue_aerienne-1000w.jpg 1000w, Images/jpg/Park_vue_aerienne-2400w.jpg 2400w"
+			        alt="Image de notre parc depuis une vue aérienne"
+			        sizes="80vw"
+			        src="Images/jpg/Park_vue_aerienne-2400w.jpg"
+			    >
+			</picture>
+			<div class="horaire__overlay"></div>
+			<div class="horaire__corps">
+				<div class="horaire__heures">
+					<h3>Heures de visite</h3>
+					<div><p>Lundi</p><p>8:30 - 19:00</p></div>
+					<div><p>Mardi</p><p>8:30 - 19:00</p></div>
+					<div><p>Mercredi</p><p>8:30 - 19:00</p></div>
+					<div><p>Jeudi</p><p>8:30 - 19:00</p></div>
+					<div><p>Vendredi</p><p>8:30 - 19:00</p></div>
+					<div><p>Samedi</p><p>8:30 - 19:00</p></div>
+					<div><p>Dimanche</p><p>9:30 - 20:00</p></div>
+				</div>
+				<div class="horaire__contact">
+					<h3>Infos de contact</h3>
+					<div><p>Bureau</p><p>Avenue de Houffalize 36-38,<br>6800 Libramont, Belgique</p></div>
+					<div><p>Zoo</p><p>Isla Nublar, Costa Rica,<br>Océan Pacifique</p></div>
+					<div><p>Tickets</p><p>+012 34 56 78<br>reservation-cretace-park@gmail.com</p></div>
+					<div><p>Support</p><p>+987 65 43 21<br>support-cretace-park@gmail.com</p></div>
+				</div>
+			</div>
+		</section>
+		<section class="tarifs" id="tarifs">
+			<div class="section__en-tete">
+				<h1 class="section__titre">Nos tarifs</h1>
+				<div class="section_decoration"></div>
+				<p class="section__description">Les enfants de moins de 12 ans et les personnes en situation de handicap ont droit à une réduction de 10 %.</p>
+			</div>
+			<div class="tarifs__corp">
+				<div class="tarifs__packs">
+					<h3>1 jour</h3>
+					<h2>500 €</h2>
+					<p>Passez une journée inoubliable dans notre magnifique parc, observez nos fantastiques animaux dans une exacte réplique de leurs habitats naturels, et assistez à de somptueux spectacles mis en place rien que pour vous ! *</p>
+					<p class="tarifs__packs-note">* Pour des visites de plus de 1 jour consécutif, il est vivement conseillé de réserver les nuits séparant ces jours.</p>
+				</div>
+				<div class="tarifs__packs" id="tarifs__packs-middle">
+					<h3>1 nuit</h3>
+					<h2>200 €</h2>
+					<p>Passez une nuit sans pareil au cœur de notre parc, et endormez-vous aux sons uniques de nos animaux ! *</p>
+					<p class="tarifs__packs-note">* Réservez une nuit ne peut se faire que si la journée précédente et/ou la journée suivante a été réservée.</p>
+				</div>
+				<div class="tarifs__packs">
+					<h3>VIP</h3>
+					<h2>600 €</h2>
+					<p>Ne perdez plus de temps dans les files d'attente, et participez directement aux attractions de votre choix grâce au supplément VIP !</p>
+				</div>
+			</div>
+		</section>
+		<section class="bungalow" id="bungalows">
+			<div class="bungalow__en-tete">
+				<picture>
+				    <source
+				        type="image/avif"
+				        srcset="Images/avif/Bungalow-600w.avif 600w, Images/avif/Bungalow-1000w.avif 1000w, Images/avif/Bungalow-2400w.avif 2400w"
+				    >
+				    <source
+				        type="image/webp"
+				        srcset="Images/webp/Bungalow-600w.webp 600w, Images/webp/Bungalow-1000w.webp 1000w, Images/webp/Bungalow-2400w.webp 2400w"
+				    >
+				    <img
+				        class="bungalow__en-tete-img"
+				        srcset="Images/jpg/Bungalow-600w.jpg 600w, Images/jpg/Bungalow-1000w.jpg 1000w, Images/jpg/Bungalow-2400w.jpg 2400w"
+				        alt="Image d'un de nos bungalows dans lesquels passer la nuit dans notre parc"
+				        sizes="80vw"
+				        src="Images/jpg/Bungalow-2400w.jpg"
+				    >
+				</picture>
+			</div>
+			<div class="bungalow__texte" id="bungalow">
+				<h2>La meilleure vue de tout le parc !</h2>
+				<p>Profitez d'une vue magnifique et d'une nuit reposante dans nos bungalows Hammond !</p>
+				<div class="bungalow__texte-check">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="5" stroke="green">
+					 	<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+					</svg>
+					<p>Un décor rustique</p>
+				</div>
+				<div class="bungalow__texte-check">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="5" stroke="green">
+					 	<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+					</svg>
+					<p>Tout le confort de notre époque</p>
+				</div>
+				<div class="bungalow__texte-check">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="5" stroke="green">
+					 	<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+					</svg>
+					<p>Jusqu'à cinq personnes</p>
+				</div>
+			</div>
+		</section>
+		<section class="reservation" id="reservation">
+			<picture>
+				    <source
+				        type="image/avif"
+				        srcset="Images/avif/Bateau-600w.avif 600w, Images/avif/Bateau-1000w.avif 1000w, Images/avif/Bateau-2400w.avif 2400w"
+				    >
+				    <source
+				        type="image/webp"
+				        srcset="Images/webp/Bateau-600w.webp 600w, Images/webp/Bateau-1000w.webp 1000w, Images/webp/Bateau-2400w.webp 2400w"
+				    >
+				    <img
+				        class="reservation__img"
+				        srcset="Images/jpg/Bateau-600w.jpg 600w, Images/jpg/Bateau-1000w.jpg 1000w, Images/jpg/Bateau-2400w.jpg 2400w"
+				        alt="Image d'un des bateaux faisant l'aller-retour entre l'île et les continents"
+				        sizes="80vw"
+				        src="Images/jpg/Bateau-2400w.jpg"
+				    >
+			</picture>
+			<div class="reservation__overlay"></div>
+			<div class="reservation__corps">
+				<div class="reservation__corps-texte">
+					<h2>Réservation en ligne</h2>
+					<p>Réservez dès maintenant votre visite chez nous !</p>
+					<p>Un bateau fait le trajet deux fois par jour, à 5:00 et à 20:30. Le trajet dure environ 3 h.</p>
+					<p></p>
+				</div>
+				<form>
+					<input type="text" name="nom" required placeholder="Votre nom">
+					<input type="text" name="prenom" required placeholder="Votre prénom">
+					<input type="email" name="email" required placeholder="Votre email">
+					<div class="reservation__corps-date">
+						<input type="date" id="date" required name="date">
+						<label for="date">Date de début du séjour</label>
+					</div>
+					<input type="number" name="nb_adulte" min="1" required placeholder="Nombre d'adultes">
+					<input type="number" name="nb_enfant" min="0" required placeholder="Nombre d'enfants">
+					<input type="number" name="nb_jours" min="1" required placeholder="Nombre de jours">
+					<input type="number" name="nb_nuits" min="0" required placeholder="Nombre de nuits">
+					<div class="reservation__corps-depart">
+						<div>
+							<input type="radio" name="depart" id="matin" checked>
+							<label for="matin">Partir au matin</label>
+						</div>
+						<div>
+							<input type="radio"	name="depart" id="soir">
+							<label for="soir">Partir au soir</label>
+						</div>
+					</div>
+					<div class="reservation__corps-vip">
+						<input type="checkbox" id="vip" name="vip" >
+						<label for="vip">VIP</label>
+					</div>
+					<input type="submit" value="Réservez">
+				</form>
+			</div>
+		</section>
+		<section class="contact" id="contact">
+			<picture>
+			    <source
+			        type="image/avif"
+			        srcset="Images/avif/Park_vue_aerienne-600w.avif 600w, Images/avif/Park_vue_aerienne-1000w.avif 1000w, Images/avif/Park_vue_aerienne-2400w.avif 2400w"
+			    >
+			    <source
+			        type="image/webp"
+			        srcset="Images/webp/Park_vue_aerienne-600w.webp 600w, Images/webp/Park_vue_aerienne-1000w.webp 1000w, Images/webp/Park_vue_aerienne-2400w.webp 2400w"
+			    >
+			    <img
+			        class="contact__img"
+			        srcset="Images/jpg/Park_vue_aerienne-600w.jpg 600w, Images/jpg/Park_vue_aerienne-1000w.jpg 1000w, Images/jpg/Park_vue_aerienne-2400w.jpg 2400w"
+			        alt="Image de notre parc depuis une vue aérienne"
+			        sizes="80vw"
+			        src="Images/jpg/Park_vue_aerienne-2400w.jpg"
+			    >
+			</picture>
+			<div class="contact__overlay"></div>
+			<div class="contact__corps">
+				<div class="contact__corps-zone">
+					<h3>Adresses</h3>
+					<div class="contact__corps-adresses-emplacement">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" style="width:1rem; height:1rem;">
+						 	<path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+						 	<path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+						</svg>
+						<p>Avenue de Houffalize 36-38, Libramont, Belgique</p>
+					</div>
+					<div class="contact__corps-adresses-phone">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" style="width:1rem; height:1rem;">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 .25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+						</svg>
+						<p>+987 65 43 21</p>
+					</div>
+					<div class="contact__corps-adresses-mail">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" style="width:1rem; height:1rem;">
+							<path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+						</svg>
+						<p>support-cretace-parc@gmail.com</p>
+					</div>
+					<div class="contact__corps-adresses-icon">
+						<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 -2 20 20" stroke="white"><path fill="#000" fill-rule="evenodd" d="M6.29 16c7.547 0 11.675-6.156 11.675-11.495 0-.175 0-.349-.012-.522A8.3 8.3 0 0 0 20 1.89a8.3 8.3 0 0 1-2.356.637A4.07 4.07 0 0 0 19.448.293a8.3 8.3 0 0 1-2.606.98 4.153 4.153 0 0 0-5.806-.175 4 4 0 0 0-1.187 3.86A11.72 11.72 0 0 1 1.392.738 4.005 4.005 0 0 0 2.663 6.13 4.1 4.1 0 0 1 .8 5.625v.051C.801 7.6 2.178 9.255 4.092 9.636a4.14 4.14 0 0 1-1.852.069c.537 1.646 2.078 2.773 3.833 2.806A8.32 8.32 0 0 1 0 14.185a11.75 11.75 0 0 0 6.29 1.812"/></svg>
+
+						<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 32 32" stroke="white"><path d="m21.95 5.005-3.306-.004c-3.206 0-5.277 2.124-5.277 5.415v2.495H10.05v4.515h3.317l-.004 9.575h4.641l.004-9.575h3.806l-.003-4.514h-3.803v-2.117c0-1.018.241-1.533 1.566-1.533l2.366-.001z"/></svg>
+
+				       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 20 20" stroke="white"><path fill="#000" fill-rule="evenodd" d="M20 20h-4v-6.999c0-1.92-.847-2.991-2.366-2.991-1.653 0-2.634 1.116-2.634 2.991V20H7V7h4v1.462s1.255-2.202 4.083-2.202S20 7.986 20 11.558zM2.442 4.921A2.45 2.45 0 0 1 0 2.46 2.45 2.45 0 0 1 2.442 0a2.45 2.45 0 0 1 2.441 2.46 2.45 2.45 0 0 1-2.441 2.461M0 20h5V7H0z"/></svg>
+
+				       <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none" viewBox="0 0 24 24" stroke="white"><path fill="#0F0F0F" fill-rule="evenodd" d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12m0-2a4 4 0 1 0 0-8 4 4 0 0 0 0 8" clip-rule="evenodd"/><path fill="#0F0F0F" d="M18 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/><path fill="#0F0F0F" fill-rule="evenodd" d="M1.654 4.276C1 5.56 1 7.24 1 10.6v2.8c0 3.36 0 5.04.654 6.324a6 6 0 0 0 2.622 2.622C5.56 23 7.24 23 10.6 23h2.8c3.36 0 5.04 0 6.324-.654a6 6 0 0 0 2.622-2.622C23 18.44 23 16.76 23 13.4v-2.8c0-3.36 0-5.04-.654-6.324a6 6 0 0 0-2.622-2.622C18.44 1 16.76 1 13.4 1h-2.8c-3.36 0-5.04 0-6.324.654a6 6 0 0 0-2.622 2.622M13.4 3h-2.8c-1.713 0-2.878.002-3.778.075-.877.072-1.325.202-1.638.361a4 4 0 0 0-1.748 1.748c-.16.313-.29.761-.36 1.638C3.001 7.722 3 8.887 3 10.6v2.8c0 1.713.002 2.878.075 3.778.072.877.202 1.325.361 1.638a4 4 0 0 0 1.748 1.748c.313.16.761.29 1.638.36.9.074 2.065.076 3.778.076h2.8c1.713 0 2.878-.002 3.778-.075.877-.072 1.325-.202 1.638-.361a4 4 0 0 0 1.748-1.748c.16-.313.29-.761.36-1.638.074-.9.076-2.065.076-3.778v-2.8c0-1.713-.002-2.878-.075-3.778-.072-.877-.202-1.325-.361-1.638a4 4 0 0 0-1.748-1.748c-.313-.16-.761-.29-1.638-.36C16.278 3.001 15.113 3 13.4 3" clip-rule="evenodd"/></svg>
+					</div>
+				</div>
+				<div class="contact__corps-zone">
+					<h3>Liens rapides</h3>
+					<div>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" style="width:1rem; height:1rem;">
+						 	<path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+						</svg>
+						<a title="Accueil du site" href="#accueil">Accueil</a>
+					</div>
+					<div>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" style="width:1rem; height:1rem;">
+						 	<path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+						</svg>
+						<a title="Photos de nos animaux" href="fiche_technique_animaux.html">Nos animaux</a>
+					</div>
+					<div>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" style="width:1rem; height:1rem;">
+						 	<path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+						</svg>
+						<a title="Les chefs d'équipes" href="#managers">Nos managers</a>
+					</div>
+					<div>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" style="width:1rem; height:1rem;">
+						 	<path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+						</svg>
+						<a title="Tarifs de visites" href="#tarifs">Nos tarifs</a>
+					</div>
+					<div>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" style="width:1rem; height:1rem;">
+						 	<path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+						</svg>
+						<a title="Les bungalows à louer" href="#bungalows">Nos bungalows</a>
+					</div>
+				</div>
+				<div class="contact__corps-zone">
+					<h3>Liens populaires</h3>
+					<div>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" style="width:1rem; height:1rem;">
+						 	<path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+						</svg>
+						<a title="Photos de nos animaux" href="fiche_technique_animaux.html">Nos animaux</a>
+					</div>
+					<div>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" style="width:1rem; height:1rem;">
+						 	<path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+						</svg>
+						<a title="Activités du parc" href="#activites">Nos activités</a>
+					</div>
+					<div>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" style="width:1rem; height:1rem;">
+						 	<path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+						</svg>
+						<a title="Les chefs d'équipes" href="#managers">Nos managers</a>
+					</div>
+					<div>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" style="width:1rem; height:1rem;">
+						 	<path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+						</svg>
+						<a title="Horarires d'ouverture" href="#horaire">Horaire</a>
+					</div>
+					<div>
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" style="width:1rem; height:1rem;">
+						 	<path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+						</svg>
+						<a title="Réservation en ligne" href="#reservation">Réservation</a>
+					</div>
+				</div>
+				<div class="contact__corps-zone">
+					<h3>Newsletter</h3>
+					<p>Recevez les dernières nouveautés à tout moment !</p>
+					<form class="contact__corps-newletter">
+						<input type="email" name="email" required placeholder="Votre email">
+						<input type="submit" value="S'abonner">
+					</form>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
